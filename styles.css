@@ -1,6 +1,7 @@
 .page {
-  width: 600px;
+  width: 800px;
   margin: 0 auto;
+  padding: 1px;
 }
 
 body {
@@ -75,7 +76,11 @@ ul {
 }
 
 li {
+  display: block;
   float: left;
+  width: 300px; // adjust
+  height: 250px; // adjust
+  padding: 5px; //adjust
 }
 
 li a {
