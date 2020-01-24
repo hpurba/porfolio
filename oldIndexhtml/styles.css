@@ -1,0 +1,97 @@
+.page {
+  width: 800px;
+  margin: 0 auto;
+  padding: 1px;
+}
+
+body {
+  color: #414141;
+  /* Dark gray */
+  background-color: #EEEEEE;
+  /* Light gray */
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  /*Center text*/
+  padding: 50px;
+  border: 1px solid #5D6063;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+.synopsis {
+  color: #7E8184;
+  /* Light gray */
+  font-style: italic;
+}
+
+.button {
+  color: #FFF;
+  background-color: #5995DA;
+  /* Blue */
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5D6063;
+  /* Dark gray */
+  border-radius: 5px;
+  width: 200px;
+  margin: 20px auto;
+}
+
+.call-to-action:link,
+.call-to-action:visited {
+  font-style: italic;
+  background-color: #EEB75A;
+  /* Yellow */
+}
+
+.call-to-action:hover,
+.call-to-action:visited:hover {
+  background-color: #F5CF8E;
+  /* Light yellow */
+}
+
+.call-to-action:active,
+.call-to-action:visited:active {
+  background-color: #EEB75A;
+  /* Yellow */
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  display: block;
+  float: left;
+  width: 300px; // adjust
+  height: 250px; // adjust
+  padding: 5px; //adjust
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
